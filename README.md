@@ -12,9 +12,10 @@ The copy and paste process includes the following elements:
 - List columns (by default)
 - Column formatting (by default)
 - Views (by default)
-- Read and write security (added on top)
-- The NoCrawl flag (added on top)
+- Read and write security (lists only added on top)
+- NoCrawl flag (added on top)
 - Offline Available (added on top)
+- enableAttachments flag (lists only added on top)
 
 ## Setting permissions on lists
 You can set the permissions on one or many lists by adding users and/or groups and assigning them existing permission levels. 
