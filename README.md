@@ -15,11 +15,11 @@ The copy and paste process includes the following elements:
 - Read and write security (added on top)
 - The NoCrawl flag (added on top)
 
-##Setting permissions on lists
+## Setting permissions on lists
 You can set the permissions on one or many lists by adding users and/or groups and assigning them existing permission levels. 
 
-##Create lists
+## Create lists
 You can create lists (without columns) on one or many site collection.
 
-##Copy columns
+## Copy columns
 You can copy columns from a list to one or many other lists.
