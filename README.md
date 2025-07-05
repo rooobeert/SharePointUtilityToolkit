@@ -14,6 +14,7 @@ The copy and paste process includes the following elements:
 - Views (by default)
 - Read and write security (added on top)
 - The NoCrawl flag (added on top)
+- Offline Available (added on top)
 
 ## Setting permissions on lists
 You can set the permissions on one or many lists by adding users and/or groups and assigning them existing permission levels. 
