@@ -6,7 +6,7 @@ This toolkit aims to help where SharePoint Online lists are being used as a data
 For my own sake, I will use the word lists for both lists and libraries in SharePoint.
 
 ## Copy and paste lists
-You can (initally) copy one or many lists from one or many SharePoint site collections to one or many other site collections. You ==cannot== use this tool to copy over changes you made to a list and you ==cannot== copy default lists like Documents or SitePages since they already exist on all site collections.
+You can (initally) copy one or many lists from one or many SharePoint site collections to one or many other site collections. You **cannot** use this tool to copy over changes you made to a list and you **cannot** copy default lists like Documents or SitePages since they already exist on all site collections.
 
 The copy and paste process includes the following elements: 
 - List columns (by default)
