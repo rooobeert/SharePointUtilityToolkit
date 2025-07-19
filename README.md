@@ -1,5 +1,5 @@
 # SharePointUtilityToolkit
-This is my first ever repo on Github, so if this seems out of place or essential pieces are missing. Well. 
+This is my first ever repo on Github, so if something seems off or weird. Well, get over it. 
 
 ## What this toolkit can do currently
 For my own sake, I will use the word "lists" for both lists and libraries in SharePoint Online. This toolkit aims to help where SharePoint Online lists are being used as a database for Power Apps and Power Automate. A good application lifecycle management includes not only different Power Platform environments but also different SharePoint site collections.
