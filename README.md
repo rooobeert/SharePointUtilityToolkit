@@ -17,12 +17,12 @@ The copy and paste process includes the following elements:
 - Offline Available (added on top)
 - enableAttachments flag (lists only added on top)
 
-![Screenshot of the SharePoint Utility Toolkit and the copy screen.](https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/rooobeert/SharePointUtilityToolkit/blob/main/assets/images/SUT_CopyingListsExample.png)
+![Screenshot of the SharePoint Utility Toolkit and the copy screen.](https://github.com/rooobeert/SharePointUtilityToolkit/blob/main/assets/images/SUT_CopyingListsExample.png)
 
 ## Setting permissions on lists
 You can set the permissions on one or many lists by adding users and/or groups and assigning them existing permission levels. 
 
-![Screenshot of the SharePoint Utility Toolkit and the permission screen.](https://myoctocat.com/assets/images/base-octocat.svg](https://github.com/rooobeert/SharePointUtilityToolkit/blob/main/assets/images/SUT_CopyingListsExample.png)
+![Screenshot of the SharePoint Utility Toolkit and the permission screen.](https://github.com/rooobeert/SharePointUtilityToolkit/blob/main/assets/images/SUT_CopyingListsExample.png)
 
 # Planned future features
 - Copy just the columns from on to another list. Useful, if you want to update a list.
