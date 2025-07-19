@@ -28,7 +28,7 @@ You can set the permissions on one or many lists (in many site collection) by ad
 2. You can then specify permissions for each list by applying group or user permissions. The tool will read the site collections permission levels.
 3. After specifying all wanted permissions, a workflow will set them on the lists.
 
-![Screenshot of the SharePoint Utility Toolkit and the permission screen.](https://github.com/rooobeert/SharePointUtilityToolkit/blob/main/assets/images/SUT_CopyingListsExample.png)
+![Screenshot of the SharePoint Utility Toolkit and the permission screen.](https://github.com/rooobeert/SharePointUtilityToolkit/blob/main/assets/images/SUT_SettingPermissionsExample.png)
 
 # Planned future features
 - Copy just the columns from on to another list. Useful, if you want to update a list.
