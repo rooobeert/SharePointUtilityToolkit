@@ -20,7 +20,10 @@ The copy and paste process includes the following elements:
 ![Screenshot of the SharePoint Utility Toolkit and the copy screen.](https://github.com/rooobeert/SharePointUtilityToolkit/blob/main/assets/images/SUT_CopyingListsExample.png)
 
 ## Setting permissions on lists
-You can set the permissions on one or many lists by adding users and/or groups and assigning them existing permission levels. 
+You can set the permissions on one or many lists (in many site collection) by adding users and/or groups and assigning them existing permission levels.
+1. First enter a site url, then click on "Get lists"
+2. You can then specify permissions for each list by applying group or user permissions. The tool will read the site collections permission levels.
+3. After specifying all wanted permissions, a workflow will set them on the lists.
 
 ![Screenshot of the SharePoint Utility Toolkit and the permission screen.](https://github.com/rooobeert/SharePointUtilityToolkit/blob/main/assets/images/SUT_CopyingListsExample.png)
 
