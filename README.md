@@ -3,10 +3,10 @@
 This toolkit aims to help where SharePoint Online lists are being used as a database for Power Apps and Power Automate. 
 
 # What this toolkit can do currently
-For my own sake, I will use the word lists for both lists and libraries in SharePoint.
+For my own sake, I will use the word "lists" for both lists and libraries in SharePoint Online.
 
 ## Copy and paste lists
-You can (initally) copy one or many lists from one or many SharePoint site collections to one or many other site collections. You **cannot** use this tool to copy over changes you made to a list and you **cannot** copy default lists like Documents or SitePages since they already exist on all site collections.
+You can copy one or many NEW lists from one or many SharePoint site collections to one or many other site collections. You **cannot** use this tool to copy over changes you made to a list and you **cannot** copy existing lists or default lists like Documents or SitePages since they already exist on all site collections.
 
 The copy and paste process includes the following elements: 
 - List columns (by default)
@@ -20,8 +20,7 @@ The copy and paste process includes the following elements:
 ## Setting permissions on lists
 You can set the permissions on one or many lists by adding users and/or groups and assigning them existing permission levels. 
 
-## Create lists
-You can create lists (without columns) on one or many site collection.
-
-## Copy columns
-You can copy columns from a list to one or many other lists.
+# Planned future features
+- Copy just the columns from on to another list. Useful, if you want to update a list.
+- 
+- Continue with permission setting after lists have been copied
