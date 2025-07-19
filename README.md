@@ -1,9 +1,12 @@
 # SharePointUtilityToolkit
+This is my first ever repo on Github, so if this seems out of place or essential pieces are missing. Well. 
 
-This toolkit aims to help where SharePoint Online lists are being used as a database for Power Apps and Power Automate. 
+## What this toolkit can do currently
+For my own sake, I will use the word "lists" for both lists and libraries in SharePoint Online. This toolkit aims to help where SharePoint Online lists are being used as a database for Power Apps and Power Automate. A good application lifecycle management includes not only different Power Platform environments but also different SharePoint site collections.
 
-# What this toolkit can do currently
-For my own sake, I will use the word "lists" for both lists and libraries in SharePoint Online.
+## A short history
+It was born from an app template I found a few years ago. I started using it to copy lists within customers tenants when I was developing Power Platform solutions for them. With this tool I was able to speed up the time it took me deploy solutions from DEV to PROD without having to use PNP PowerShell or other premium features.
+I sadly cannot find the original template and creator anymore. Before I started customizing it, it was called "LCP - List Copy Paste".
 
 ## Copy and paste lists
 You can copy one or many NEW lists from one or many SharePoint site collections to one or many other site collections. You **cannot** use this tool to copy over changes you made to a list and you **cannot** copy existing lists or default lists like Documents or SitePages since they already exist on all site collections.
@@ -29,5 +32,7 @@ You can set the permissions on one or many lists (in many site collection) by ad
 
 # Planned future features
 - Copy just the columns from on to another list. Useful, if you want to update a list.
-- 
 - Continue with permission setting after lists have been copied
+
+# Behind the scenes
+I will explain this a little more later on, but essentially the tool is using Power Apps Canvas as a front end with a lot of Power Automate workflows in the back. The workflows read lists, permission levels, groups and so on and pass them to the canvas app. The copy is done using the Design API of SharePoint Online. Setting the permissions is done by utilizing the default SharePoint API as well.
