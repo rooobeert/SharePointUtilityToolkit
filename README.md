@@ -1,5 +1,5 @@
  # SharePointUtilityToolkit
-This is my first ever repo on Github, so if something seems off or weird. Well, get over it. 
+This is my first ever repo on Github, so if something seems off or wrong - please tell me so.
 
 ## What this toolkit can do currently
 For my own sake, I will use the word "lists" for both lists and libraries in SharePoint Online. This toolkit aims to help where SharePoint Online lists are being used as a database for Power Apps and Power Automate. A good application lifecycle management includes not only different Power Platform environments but also different SharePoint site collections.
@@ -39,6 +39,6 @@ You can set the permissions on one or many lists (in many site collection) by ad
 I will explain this a little more later on, but essentially the tool is using Power Apps Canvas as a front end with a lot of Power Automate workflows in the back. The workflows read lists, permission levels, groups and so on and pass them to the canvas app. The copy is done using the Design API of SharePoint Online. Setting the permissions is done by utilizing the default SharePoint API as well.
 
 # Installing the toolkit
-Its pretty straightforward. You download the latest ZIP file under ![Releases](https://github.com/rooobeert/SharePointUtilityToolkit/blob/main/assets/images/SUT_CopyingListsExample.png) and then import it into any Power Platform environment where you have maker access. If necessary, you can share the canvas app with other users.
+Its pretty straightforward. You download the latest ZIP file under ![Releases](https://github.com/rooobeert/SharePointUtilityToolkit/releases) and then import it into any Power Platform environment where you have maker access. If necessary, you can share the canvas app with other users.
 
 > Make sure that you are site collection administrator or at least site owner for the app and the workflows to work properly.
