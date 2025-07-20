@@ -4,11 +4,12 @@ This is my first ever repo on Github, so if something seems off or weird. Well, 
 ## What this toolkit can do currently
 For my own sake, I will use the word "lists" for both lists and libraries in SharePoint Online. This toolkit aims to help where SharePoint Online lists are being used as a database for Power Apps and Power Automate. A good application lifecycle management includes not only different Power Platform environments but also different SharePoint site collections.
 
+> Make sure that you are site collection administrator or at least site owner for this to work properly.
+
 ## A short history
 It was born from an app template I found a few years ago. I started using it to copy lists within customers tenants when I was developing Power Platform solutions for them. With this tool I was able to speed up the time it took me deploy solutions from DEV to PROD without having to use PNP PowerShell or other premium features.
 I sadly cannot find the original template and creator anymore. Before I started customizing it, it was called "LCP - List Copy Paste".
 
-> Make sure that you are site collection administrator or at least site owner for this to work properly.
 
 ## Copy and paste lists
 You can copy one or many NEW lists from one or many SharePoint site collections to one or many other site collections. You **cannot** use this tool to copy over changes you made to a list and you **cannot** copy existing lists or default lists like Documents or SitePages since they already exist on all site collections.
