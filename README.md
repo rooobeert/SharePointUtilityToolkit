@@ -42,3 +42,4 @@ I will explain this a little more later on, but essentially the tool is using Po
 Its pretty straightforward. You download the latest ZIP file under ![Releases](https://github.com/rooobeert/SharePointUtilityToolkit/releases) and then import it into any Power Platform environment where you have maker access. If necessary, you can share the canvas app with other users.
 
 > Make sure that you are site collection administrator or at least site owner for the app and the workflows to work properly.
+> I would recommend to install this in the default environment, as there won't be further configuration necessary. If you choose to install in a separate production environment, users might not be able to trigger the flow from the app due to missing privileges. ![Check here for further information and the fix](https://robertheep.de/all-blogs/error-user-does-not-have-readaccess-rights-for-record-with-id)
