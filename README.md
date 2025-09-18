@@ -4,7 +4,8 @@ This is my first ever repo on Github, so if something seems off or wrong - pleas
 ## What this toolkit can do currently
 For my own sake, I will use the word "lists" for both lists and libraries in SharePoint Online. This toolkit aims to help where SharePoint Online lists are being used as a database for Power Apps and Power Automate. A good application lifecycle management includes not only different Power Platform environments but also different SharePoint site collections.
 
-[![Grab the latest release here)](https://github.com/rooobeert/SharePointUtilityToolkit/releases)
+[Grab the latest release here](https://github.com/rooobeert/SharePointUtilityToolkit/releases)
+
 
 ## A short history
 It was born from an app template I found a few years ago. I started using it to copy lists within customers tenants when I was developing Power Platform solutions for them. With this tool I was able to speed up the time it took me deploy solutions from DEV to PROD without having to use PNP PowerShell or other premium features.
